@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+:root {
+  font-size: 62.5%;
+  --white: hsl(0, 0%, 100%);
+   --dark-gray: hsl(0, 0%, 59%);
+   --very-dark-gray:hsl(0, 0%, 17%);
+
+}
+
+
+main {
+    width: 375px;
+    height: 300px;
+    background-image: url('images/pattern-bg-mobile.png');
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  
+   
+}
+
+footer {
+    background-image: url('images/google-maps-live-view-update-1.jpg');
+    width: 375px;
+    height: 667px;
+}
+
+h1 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: var(--white);
+    margin-top: 20px;
+}
+
+.ip-info {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  margin-top: 40px;
+  border-radius: 10px;
+  width: 250px;
+  height: 50px;
+  padding: 18.5px 0 18.5px 24px;
+  border-radius: 15px 0 0 15px;
+  color: var(--very-dark-gray);
+  font: size 14px;
+  border: none;
+  outline: none;
+}
+
+.btn {
+  background-color: black;
+  margin-left: -20px;
+  width: 55px;
+  padding: 18px 23px;
+  border-radius: 0px 15px 15px 0px;
+  border: none;
+}
+
+.ip-box {
+  margin-top: 32px;
+  background-color: var(--white);
+  border-radius: 15px;
+  padding: 27px 15px 24px 15px;
+  width: 327px;
+  height: 400px;
+}
+
+
+
