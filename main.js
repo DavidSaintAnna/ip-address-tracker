@@ -26,7 +26,6 @@ function sendRequest() {
     )
       .then((response) => response.json())
       .then((responseData) => {
-        console.log(responseData);
         const locationValue = `${responseData.location.city}, ${responseData.location.region} ${responseData.location.geonameId}`;
         ip.textContent = responseData.ip;
         location.textContent = locationValue;
