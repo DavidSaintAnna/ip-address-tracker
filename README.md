@@ -29,7 +29,7 @@ Deploy do front-end efetuado no [Netlify](https://www.netlify.com/) para visuali
 
 |                             :computer:Desktop                             |                             :iphone: Mobile                              |
 | :-----------------------------------------------------------------------: | :----------------------------------------------------------------------: |
-| <kbd>  <img alt="project" src="ip-address-tracker/design/desktop.PNG" width="100%"></kbd> | <kbd><img alt="project" src="ip-address-tracker/design/mobile.PNG" width="100%"></kbd> |
+| <kbd>  <img alt="project" src="/ip-address-tracker/design/desktop.PNG" width="100%"></kbd> | <kbd><img alt="project" src="/ip-address-tracker/design/mobile.PNG" width="100%"></kbd> |
 </div>
   
 ---
